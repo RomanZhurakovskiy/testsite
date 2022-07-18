@@ -1,0 +1,131 @@
+
+
+
+body {
+background-color: rgb(236, 237, 240);
+
+font-size: 20px;
+font-weight: normal;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+color: black;
+text-decoration: none;
+
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+a:active {
+color: blue;
+
+}
+
+
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+@media (max-width: 700px) {
+    .info {
+        margin-bottom: 20px;
+        text-align: center;
+        display: block;
+      }
+     
+}
+
+.info-text {
+    margin-left: 40px;
+}
+.info-text h4 {
+margin-bottom: 10px ;
+
+}
+
+.list li {
+
+    color: #323438 ;
+    margin-bottom: 10px;
+
+
+}
+
+
+.avatar {
+margin: 20px;
+width: 300px;
+border-radius: 28px;
+box-shadow: 1px 6px 20px 2px rgb(16, 16, 17)
+
+}
+
+.card h2 {
+margin: 20px;
+
+
+}
+
+.list {
+padding: 0 20px4;
+
+
+}
+
+
+.info p {
+color: rgb(58, 59, 77);
+margin: 0;
+font-style: italic;
+font-weight: bold;
+/*text-transform: uppercase;*/
+/*letter-spacing: 1px;*/
+/*word-spacing: 12px;*/
+
+}
+
+
+.container {
+max-width: 750px;
+margin: auto;
+padding-top: 30px;
+
+
+
+}
+
+
+
+.bg-yellow {
+    background: rgb(240, 240, 205);
+  
+
+}
+
+.bg-red {
+    background: rgb(226, 181, 181);
+
+  
+}
+
+
+
+.card {
+padding: 15px 20px;
+margin-bottom: 20px;
+border-radius: 20px;
+
+
+}
+
+
+
+p {
+    margin: 20px;
+}
+
